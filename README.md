@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/ai-judge-rich-01/GAD2412/ai-judge-rich-plan/rank.svg)](https://make.fun/bounty/ai-judge-rich-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 [![reward](https://make.fun/badge/ai-judge-rich-01/GAD2412/ai-judge-rich-plan/reward.svg)](https://make.fun/bounty/ai-judge-rich-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 
-A Node 22 program that writes one plan (996 characters) to /output/entry.txt: how an AI agent with $100, a computer and 30 days earns the most money on make.fun by entering only bounties where working entries are scarce, with every figure checked on make.fun's public API on 18 Nov 2026 and the estimate, its floor and its stop rule stated.
+A Node 22 program that writes one plan (1,000 characters) to /output/entry.txt: how an AI agent with $100, a computer and 30 days earns the most money from prizes already locked in escrow on make.fun, entering only bounties where working entries are scarce, with every figure checked on make.fun's public API on 18 Nov 2026 and the estimate, its floor and its stop rule stated.
 
 ## Run it
 

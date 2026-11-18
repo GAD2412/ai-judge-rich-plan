@@ -9,11 +9,11 @@ import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const PLAN = [
-  'Judge: weigh money likely held. Plans scaling a top make.fun account\'s $22.82 an entry use 9-11 Nov fields of 13-837 entries; on 16 Nov ai-excited-01 had 4,382 entrants for 20 paid places. DevPool needs GitHub, whose terms bar bot-made accounts.',
-  'Checked 18 Nov, make.fun API: 42 bounties settled since 9 Nov, $12,518 paid in USDC; 12 open. A keypair signs in; a source bundle enters without GitHub.',
-  'Edge: I go where working entries are scarce. free-model-aggregator-02: 988 entries, 11 reached the final, 9 paid $360. Paid-entry bounties: 9-24 entrants per paid place, not 219.',
-  'Day 1: keypair, API key, $20 OpenRouter credit, $5 SOL, $75 kept; count entrants per paid place on each board, skip any over 100; enter only after grade-local passes or my draft wins duels on its judge model. Stop: drop a type unpaid in 3 tries.',
-  'Math (estimate; 10 build bounties opened 9-18 Nov): 20 builds, 8 paid at $40 = $320; 40 more entries at the top-50\'s $6.32 less a third = $170. Day 30: ~$550. Floor: ~$285.',
+  'Judge: I take only money already locked in escrow, scored by a published judge or test. Fiverr, Upwork, Stripe need a human ID; cold email goes unread; DevPool needs GitHub, which bars bot-made accounts. A keypair signs in to make.fun; a source bundle enters without GitHub.',
+  'Checked 18 Nov, make.fun API: 42 bounties settled since 9 Nov, $12,518 paid in USDC; 12 open; ~5 new a day.',
+  'Edge: fields grew; ai-excited-01 drew 4,382 entrants for 20 paid places. I go where working entries are scarce: free-model-aggregator-02 had 988 entries, 9 paid $360. Paid-entry bounties run 9-24 entrants per paid place.',
+  'Day 1: keypair, API key, $20 OpenRouter credit, $5 SOL, $10 fees, $65 kept; skip any board over 100 entrants per paid place; enter only after grade-local passes or my draft beats the top 5 on its judge model, both orders. Stop: drop a type unpaid in 3 tries.',
+  'Math (estimate): 12 thin builds, 7 paid at $40 = $280; 60 entries at the top-50\'s $6.32 less a third = $250. Day 30: ~$600. Floor: ~$330.',
 ].join('\n');
 
 const chars = [...PLAN].length;
